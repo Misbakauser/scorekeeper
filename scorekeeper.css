@@ -1,0 +1,103 @@
+html{
+	background-image: url('backend.jfif');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	min-height: 100%;
+	width: 100%;
+}
+.grad {
+	  background-image: linear-gradient(red, orange, red);
+	  color: #00000f;
+	  text-shadow: 2px 1px #0000ff;
+}
+.gradtime {
+	  background-image: linear-gradient(red, orange, red);
+	  color: white;
+	  width: 200px;
+	  text-align: center;	
+	  font-size: 3.5vw;
+	  font-weight: bold;
+	  border-radius: 10px;
+}
+.pointcontainer{
+	width: 60%;
+	min-height: 380px;
+	background-color: #ffffff98;
+	text-align: center;
+	margin-bottom: 5%;
+	margin-right: 20%;
+	margin-left: 20%;
+	text-align: center;
+}
+.team{
+	display: grid;
+	grid-template-columns: 50% 50%;
+	margin-top: 50px;
+	position: relative;
+}
+.timerlink{
+	background-image: linear-gradient(#0000ff, #00000f, #0000ff);
+	color: white;
+	padding: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 20px;
+	border-radius: 10px;
+}
+.timerlink:hover{
+	background-image: linear-gradient(#00000f, #0000ff, #00000f);
+	cursor: pointer;
+}
+.timerlinkI{
+	background-image: linear-gradient(#00ff00, #002f00, #00ff00);
+	color: white;
+	font-weight: bold;
+	padding: 10px;
+	font-size: 1.5vw;
+	border-radius: 10px;
+}
+.timerlinkI:hover{
+	background-image: linear-gradient(#002f00, #00ff00, #002f00);
+	cursor: pointer;
+}
+.timerlinkII{
+	background-image: linear-gradient(#ff0000, #2f0000, #ff0000);
+	color: white;
+	font-weight: bold;
+	padding: 10px;
+	font-size: 1.5vw;
+	border-radius: 10px;
+}
+.timerlinkII:hover{
+	background-image: linear-gradient(#2f0000, #ff0000, #2f0000);
+	cursor: pointer;
+}
+h2{
+	font-size: 3vw;
+	color: white;
+	background-image: linear-gradient(#2f0000, #ff0000, #2f0000);
+	width: 50%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+h1 {
+	  color: #00000f;
+	  text-shadow: 2px 1px #0000ff;
+}
+.reset{
+	background-image: linear-gradient(#ff0000, #2f0000, #ff0000);
+	color: white;
+	font-weight: bold;
+	padding: 10px;
+	font-size: 20px;
+	border-radius: 10px;
+}
+.reset:hover{
+	background-image: linear-gradient(#2f0000, #ff0000, #2f0000);
+	cursor: pointer;
+}
+.newmatch{
+	font-size: 30px;
+	font-weight: bold;
+	font-style: italic;
+}

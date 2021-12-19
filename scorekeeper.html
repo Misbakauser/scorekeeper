@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Score Keeper</title>
+	<link rel="stylesheet" type="text/css" href="scorekeeper.css">
+	<script src="counter.js"></script>
+	<script src="countdown.js"></script>
+</head>
+<body >
+	<center>
+		<div class="gradtime">
+			<span style="color: #00000f; text-shadow: 2px 1px #0000ff; font-size: 2vw;">Count Down</span> <br>
+			<span id="min">0</span><span id="smin">1</span><span>:</span><span id="sec">0</span><span id="msec">0</span><span style="font-size: 30px">s</span>
+		</div>
+	</center>
+	<div class="pointcontainer">
+		<h1 class="grad">SCORE KEEPER</h1>
+		<div class="team">
+			<div align="center">
+				<h1 style="margin-top: 0px">Player 1</h1>
+				<h2><span style="font-size: 25px">Point</span> <br> <span id="teamIpoint">0</span></h2>
+				<div class="team">
+					<div><button class="timerlinkI" name="btn" onclick="add(1)">Add Point</button></div>
+					<div><button class="timerlinkII" name="btn" onclick="deduct(1)">Deduct Point</button></div>
+				</div>
+			</div>
+			<div align="center">
+				<h1 style="margin-top: 0px">Player 2</h1>
+				<h2><span style="font-size: 25px">Point</span> <br> <span id="teamIIpoint">0</span></h2>
+				<div class="team">
+					<div><button class="timerlinkI" name="btn" onclick="add(2)">Add Point</button></div>
+					<div><button class="timerlinkII" name="btn" onclick="deduct(2)">Deduct Point</button></div>
+				</div>
+			</div>
+		</div>
+	</div>
+		<div align="center" class="changebtn">
+			<button class="timerlink" id="myBtn" onclick="counter()">Start Match</button> 
+		</div>
+		<script type="text/javascript">
+			var btn = document.getElementsByName("btn");
+			btn[0].disabled = true;
+			btn[1].disabled = true;
+			btn[2].disabled = true;
+			btn[3].disabled = true;
+		</script>
+</body>
+</html>
